@@ -1,8 +1,39 @@
 #section-1 {
+    padding: 4rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
     height: auto;
-    margin-top: 60px;
 }
 
-h1 {
+.title .name {
+    color: crimson;
+}
+
+.title .namePre {
     color: #ffffff;
+    margin-top: 1rem;
+}
+
+.title .nameTxt {
+    color: #e0e0e0;
+}
+
+.hireBtn {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#section-2 {
+    background-color: #ffffff;
+    padding: 4rem;
+}
+
+#section-2 h2 {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+#section-2 h4 {
+    color: crimson;
+    text-decoration: underline crimson;
 }
