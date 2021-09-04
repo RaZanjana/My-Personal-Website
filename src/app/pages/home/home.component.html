@@ -1,5 +1,5 @@
 <section id="section-1">
-    <div class="row d-flex align-items-center justify-content-center">
+    <div class="row d-flex align-items-center">
         <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12 title">
             <h4 class="namePre">Hello, my name is</h4>
             <h1 class="name">Thisura Rasanjana</h1>
@@ -9,15 +9,219 @@
                 <button mdbRipple type="button" class="btn btn-primary btn-lg hireBtn">Hire Me</button>
             </div>
         </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-8 col-12">
-            <img src="assets/images/me1.jpg" class="img-fluid shadow-2-strong" alt="" />
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-8 col-12 d-flex align-items-end">
+            <img src="assets/images/me1.png" class="img-fluid" alt="" />
         </div>
     </div>
 </section>
-<section id="section-2" style="height: 50vh;">
-    <div class="row text-center">
+<section id="section-2">
+    <div class="row text-center sec2Head">
         <h2>About Me</h2>
         <h4>My Bio</h4>
+    </div>
+    <div class="row">
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-5 col-12 myImage2">
+            <img src="assets/images/me2.jpg" class="img-fluid shadow-3-strong" alt="" />
+            <button mdbRipple type="button" class="btn btn-primary btn-lg btnCV">Download CV</button>
+        </div>
+        <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-8 col-sm-7 col-12">
+            <mdb-stepper [orientation]="'vertical'">
+                <mdb-step [name]="'Who am I?'">
+                    <p>I am a passionate Designer with experience in wireframing, UI patterns, and user flows. For the past 2 years, I am currently working as UI UX Designer and Full Stack Developer (.Net) at <a href="https://softlogiclife.lk/">Softlogic Life Insurance</a>.
+                        During my first year, I worked with Asp .Net, Microsoft SQL, SSRS, C #, etc., and I realized my creativity and trained myself to be a UI UX Engineer at that company.
+                        <br><br> Since then, I have served as a UI UX engineer on several of Softlogic Life's major systems. I am currently using <a href="https://creativecloud.adobe.com/">Adobe's creative tools</a> (XD, Photoshop, Illustrator) and
+                        <a href="https://zeplin.io/">Zeplin</a> for Designing and Prototype and Familiar with <a href="https://angular.io/">Angular 12</a>, <a href="https://mdbootstrap.com/">Material design bootstrap</a>, HTML, SCSS, TS for Development.
+                        I was always eager to increase my knowledge and creativity by gradually learning them.
+                    </p>
+                </mdb-step>
+                <mdb-step [name]="'Skills'">
+                    <mdb-accordion>
+                        <mdb-accordion-item>
+                            <ng-template mdbAccordionItemHeader>
+                                #Programing
+                            </ng-template>
+                            <ng-template mdbAccordionItemBody>
+                                <h6>HTML/CSS/Bootstrap</h6>
+                                <div class="progress" style="height: 15px">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                        90%
+                                    </div>
+                                </div>
+                                <h6>JavaScript</h6>
+                                <div class="progress" style="height: 15px">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                        70%
+                                    </div>
+                                </div>
+                                <h6>Angular/ Node JS/ TypeScript</h6>
+                                <div class="progress" style="height: 15px">
+                                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                        60%
+                                    </div>
+                                </div>
+                                <h6>Android Studio/ React Native/ Ionic</h6>
+                                <div class="progress" style="height: 15px">
+                                    <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                                        40%
+                                    </div>
+                                </div>
+                                <h6>React</h6>
+                                <div class="progress" style="height: 15px">
+                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                        50%
+                                    </div>
+                                </div>
+                                <h6>Asp.net Web Forms/ C#</h6>
+                                <div class="progress" style="height: 15px">
+                                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                        80%
+                                    </div>
+                                </div>
+                                <h6>Microsoft SQL/ SSRS</h6>
+                                <div class="progress" style="height: 15px">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                        70%
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </mdb-accordion-item>
+
+                        <mdb-accordion-item>
+                            <ng-template mdbAccordionItemHeader>
+                                #Designing & Editing
+                            </ng-template>
+                            <ng-template mdbAccordionItemBody>
+                                <h6>Adobe XD/ Zeplin</h6>
+                                <div class="progress" style="height: 15px">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                        70%
+                                    </div>
+                                </div>
+                                <h6>Adobe Photoshop</h6>
+                                <div class="progress" style="height: 15px">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                        70%
+                                    </div>
+                                </div>
+                                <h6>Adobe Illustrator</h6>
+                                <div class="progress" style="height: 15px">
+                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                        50%
+                                    </div>
+                                </div>
+                                <h6>Adobe After Effects/ Media Encoder</h6>
+                                <div class="progress" style="height: 15px">
+                                    <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                                        30%
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </mdb-accordion-item>
+                    </mdb-accordion>
+                    <br>
+                    <p>GitHub, GitLab, Microsoft Azure, Bitbucket and Jira are used as cloud platforms.</p>
+                </mdb-step>
+                <mdb-step [name]="'Career'">
+                    <div class="row careerList">
+                        <h6>• Junior Executive - Full Stack Software Developer <small class="text-muted"> [At Softlogic Life IT, Nugegoda] </small><span class="badge bg-primary">Mar. 2020 to Present</span></h6>
+                    </div>
+                    <div class="row careerList">
+                        <h6>• Intern – Software Developer <small class="text-muted"> [At Softlogic Life IT, Nugegoda] </small><span class="badge bg-primary">Sep. 2019 to Mar. 2020</span></h6>
+                    </div>
+                    <div class="row careerList">
+                        <h6>• Intern – Mobile Application Developer <small class="text-muted"> [At Ceylon Petroleum Storage Terminals LTD, Kolonnawa] </small><span class="badge bg-primary">Sep. 2018 to Dec. 2018</span></h6>
+                    </div>
+                    <div class="row careerList">
+                        <h6>• Founder - Graphic Designer <small class="text-muted"> ['The Social Media Guy' Startup company (Provide social media advertising services)] </small><span class="badge bg-primary">Aug. 2019 to Present</span></h6>
+                    </div>
+                    <div class="row careerList">
+                        <h6>• CTO - Web & Front-end Developer <small class="text-muted"> ['Team NextScope' Startup Web & Software development company] </small><span class="badge bg-primary">Dec. 2018 to Feb. 2020</span></h6>
+                    </div>
+                </mdb-step>
+                <mdb-step [name]="'Academic'">
+                    <div class="row academic">
+                        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="card text-center shadow-4-strong">
+                                <i class="fas fa-user-graduate"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">Graduate</h5>
+                                    <p class="card-text">
+                                        Honors Degree of Bachelor of Science (Computer Science)
+                                    </p>
+                                    <a mdbTooltip="University 	– NSBM Green University (Offered by UCD Ireland), 
+                                    GPA 		– 3.45, 
+                                    Class 		– 2nd Class Upper Division 
+                                    " class="btn btn-primary" mdbRipple>More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="card text-center shadow-4-strong">
+                                <i class="fas fa-certificate"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">English Course</h5>
+                                    <p class="card-text">
+                                        Certificate Course in English Language
+                                    </p>
+                                    <a mdbTooltip="Institute 	– NIBM Colombo 07 " class="btn btn-primary" mdbRipple>More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="card text-center shadow-4-strong">
+                                <i class="fas fa-university"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">GCE A/L</h5>
+                                    <p class="card-text">
+                                        Achieved 1C 2S in 2016 in Physical Science stream
+                                    </p>
+                                    <a mdbTooltip="School 	– Mahanama College Colombo 03, 
+                                    Exam No - 1115014, 
+                                    Subjects 		– Combined Maths/ Physics/ Chemistry, 
+                                    Attempt 		– 1st Shy 
+                                    " class="btn btn-primary" mdbRipple>More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="card text-center shadow-4-strong">
+                                <i class="fas fa-school"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">GCE O/L</h5>
+                                    <p class="card-text">
+                                        Achieved 5A 3B 1C in 2013
+                                    </p>
+                                    <a mdbTooltip="School 	– A/Sri Siddhartha Central College Eppawala" class="btn btn-primary" mdbRipple>More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </mdb-step>
+                <mdb-step [name]="'Non-Academic'">
+                    <div class="row careerList">
+                        <h6>• University Batch Representative <span class="badge bg-primary">2016 - 2019</span></h6>
+                    </div>
+                    <div class="row careerList">
+                        <h6>• President – Thaksalawa (Charity Program)</h6>
+                    </div>
+                    <div class="row careerList">
+                        <h6>• School Prefect <span class="badge bg-primary">2011 - 2013</span></h6>
+                    </div>
+                </mdb-step>
+                <mdb-step [name]="'Other'">
+                    <div class="other">
+                        <button mdbRipple rippleColor="dark" type="button" class="btn btn-outline-primary btn-rounded"><i class="fas fa-pencil-alt"></i>&nbsp;&nbsp;Drawing Arts</button>
+                        <button mdbRipple rippleColor="dark" type="button" class="btn btn-outline-primary btn-rounded"><i class="fas fa-object-group"></i>&nbsp;&nbsp;Graphic Designing</button>
+                        <button mdbRipple rippleColor="dark" type="button" class="btn btn-outline-primary btn-rounded"><i class="fas fa-music"></i>&nbsp;&nbsp;Listen Music</button>
+                        <button mdbRipple rippleColor="dark" type="button" class="btn btn-outline-primary btn-rounded"><i class="fas fa-photo-video"></i>&nbsp;&nbsp;Photography</button>
+                        <button mdbRipple rippleColor="dark" type="button" class="btn btn-outline-primary btn-rounded"><i class="fas fa-film"></i>&nbsp;&nbsp;Watching Movies & TV Series</button>
+                        <button mdbRipple rippleColor="dark" type="button" class="btn btn-outline-primary btn-rounded"><i class="fas fa-gamepad"></i>&nbsp;&nbsp;Playing Mobile and PC Games</button>
+                        <button mdbRipple rippleColor="dark" type="button" class="btn btn-outline-primary btn-rounded"><i class="fas fa-basketball-ball"></i>&nbsp;&nbsp;Playing Cricket</button>
+                        <button mdbRipple rippleColor="dark" type="button" class="btn btn-outline-primary btn-rounded"><i class="fas fa-chess"></i>&nbsp;&nbsp;Playing Chess</button>
+                    </div>
+                </mdb-step>
+            </mdb-stepper>
+        </div>
     </div>
 </section>
 <section id="section-3" class="d-flex align-items-center justify-content-center" style="height: 50vh;">
