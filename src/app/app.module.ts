@@ -39,12 +39,14 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutComponent } from './layout/layout.component';
 import { HomeComponent } from './pages/home/home.component';
+import { SplashScreenComponent } from './splash-screen/splash-screen.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LayoutComponent,
-    HomeComponent
+    HomeComponent,
+    SplashScreenComponent
   ],
   imports: [
     BrowserModule,
